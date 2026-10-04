@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #C76B3C;
+  --color-primary-container: #9F4F2C;
+
+  --color-secondary: #9F4F2C;
+  --color-secondary-container: #F3E8DF;
+
+  --color-background: #FAF9F6;
+  --color-surface: #FFFFFF;
+
+  --color-surface-container-low: #F6F3F0;
+  --color-surface-container: #EFECE8;
+  --color-surface-container-high: #E8E4DF;
+
+  --color-accent-light: #F3E8DF;
+
+  --color-text-primary: #171717;
+  --color-text-secondary: #737373;
+  --color-on-surface: #171717;
+
+  --color-on-primary: #FFFFFF;
+
+  --color-border: #E7E2DC;
+
+  --color-warning: #C58A28;
+  --color-success: #2F7D5A;
+  --color-error: #C94A4A;
+
+  --font-title: "Bricolage Grotesque", sans-serif;
+  --font-headline: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FAF9F6;
+  font-family: "Inter", sans-serif;
+  color: #1c1b1b;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9CFC7;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C76B3C;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #D9CFC7 transparent;
+}
